@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txt_TieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiêu đề"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_NoiDung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Không chỉ tập trung vào tình yêu, những bài thơ hay nhất mọi thời đại dưới đây còn đề cập đến tình yêu quê hương, đất nước, tình bạn, mùa xuân, mùa thu,... Nếu là người yêu thơ, muốn mượn từ ngữ, vần điệu để chia sẻ cảm nhận của mình"
+            android:maxLines="3"/>
+        <TextView
+            android:id="@+id/txt_TacGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:text="Tác giả: "/>
+    </LinearLayout>
+
+</LinearLayout>
